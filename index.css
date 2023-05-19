@@ -100,11 +100,13 @@ button {
     color: white;
     padding: 10px 20px;
 }
-.cont_btn{
-    color: blue;
+.cont_btn {
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
+}
+.cont_btn a{
+    color: blue;
 }
 
 #trust{
@@ -182,6 +184,7 @@ button {
     padding: 10px 20px;
     font-size: 17px;
     font-weight: 600;
+    width: 100%; 
 }
 a{
     color: black;
@@ -214,6 +217,9 @@ a{
     #images{ 
         grid-template-columns: repeat(2,1fr);
     }
+    .carousel {
+        height: 250px;
+      }
     .info{
         padding: 0 ;
         width: 100%;
